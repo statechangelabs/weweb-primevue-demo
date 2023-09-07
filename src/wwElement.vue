@@ -16,11 +16,6 @@ export default {
     content: { type: Object, required: true },
   },
   computed: {
-    textStyle() {
-      return {
-        color: this.content.textColor,
-      };
-    },
     avatarLabel() {
       return this.content.avatarText.length ? this.content.avatarText.substring(0, 1) : ""
     }
