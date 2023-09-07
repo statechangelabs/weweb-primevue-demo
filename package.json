@@ -1,0 +1,14 @@
+{
+  "name": "primevue-test",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "weweb build",
+    "serve": "weweb serve"
+  },
+  "devDependencies": {
+    "@weweb/cli": "latest"
+  },
+  "dependencies": {
+    "primevue": "^3.34.0"
+  }
+}
